@@ -1,0 +1,45 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.search-box {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.search-input {
+	padding: 10px;
+	width: 50%;
+}
+
+.search-btn {
+	padding: 10px;
+	margin-left: 10px;
+	background-color: #0077ff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.weather-data {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.location, .desc, .sunrise, .sunset {
+	margin: 10px;
+}
+
+.c, .f {
+	margin: 5px;
+}
